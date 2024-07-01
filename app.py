@@ -23,11 +23,7 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = json.dumps({
     "client_x509_cert_url": gcp_service_account["client_x509_cert_url"]
 })
 
-# Use Google Cloud Storage API
-client = storage.Client()
 
-# Example usage
-bucket = client.get_bucket("your-bucket-name")
 
 # Initialize the connector
 connector = Connector()

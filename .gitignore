@@ -1,0 +1,5 @@
+# Ignore Streamlit secrets file
+.streamlit/secrets.toml
+
+# Ignore specific JSON file related to Google Cloud credentials
+.streamlit/mysql-cloud-427906-9c20e22716fa.json
